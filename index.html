@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <!--Color-->
+    <meta name="theme-color" content="#6cc091">
+    <!--Optimizacion pata el movil-->
+    <meta name="MoileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="mobile-web-app-capable" content="yes">
+
+
+    <!--Optimizacion pata el movil para apple-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-traslusent">
+    <link rel="apple-touch-icon" href="../static/img/OriginalLogo.png">
+    <link rel="apple-touch-startup-image" href="../static/img/OriginalLogo.png">
+    <!--Cargar el manifest-->
+    <link rel="manifest" href="../static/manifest.json">
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javier Gonzalez</title>
+    <!--Boostrap-->
+    <!--CSS persolaizado-->
+    <link rel="stylesheet" href="../static/css/main.css">
+    <!--Icono-->
+    <link rel="shourtcut icon" href="../static/img/iconos-de-la-ciencia.png">
+    <script src="https://kit.fontawesome.com/72f0053f17.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h2 class="logo">Javier Gonzalez</h2>
+        <input type="checkbox" id="check">
+        <label for="check" class="mostrar-menu">
+            &#8801
+        </label>
+        <nav class="menu">
+            <a href="#">Inicio</a>
+            <a href="#personas">Sobre mi</a>
+            <a href="#porta">Portafolio</a>
+            
+            <label for="check" class="esconder-menu">
+               &#215 
+            </label>
+        </nav>
+    </header>
+    <section id="banner">   
+        <div class="contenido-banner">
+            <h3><span>SOY JAVIER GONZALEZ: </span><br>Desarrollador de Software</h3>
+            <a href="/static/css/Javier Gonzalez_cv.pdf" class="boton-empezar" target="_blank">CURRICULUM CV</a>
+            
+        </div>
+    </section>
+
+    <section id="personas">
+        <div>
+            <img src="../static/img/foto.png" alt=""> <!--Imagen de perfil-->
+            <h4>Hola</h4>
+            <p>
+                Soy un desarrollador backend, que está interesado en los procesos de automatización de procesos con el lenguaje de programación Python y c# 
+            </p>
+            <p>
+                así como la creación de modelos y prototipos de software para la resolución de problemas.
+            </p>
+            <a href="#porta" class="boton-saber-mas">PROYECTOS</a>
+        </div>
+    </section>
+
+
+    <section id="iconos">
+        <div class="titulo1">
+            <h3>Habilidades</h3>
+        </div>
+        <div class="contenido-iconos">
+            <div>
+                <i class="fa-sharp fa-solid fa-people-group fa-3x"></i>
+                <h6>Trabajo en equipo</h6>
+                <p>Para mí, el trabajo en equipo es muy <br>importante para el <br>desarrollo profesional y al mismo tiempo que los resultados sean eficientes.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-user-tie fa-3x"></i>
+                <h6>Liderazgo</h6>
+                <p>La habilidad de liderazgo, te permite tomar decisiones rápidamente a favor del equipo, así como también de no quedar estancado por la falta de conocimiento.</p>
+            </div>
+            <div id="icono-diferente">
+                <i class="fa-solid fa-comments fa-3x"></i>
+                <h6>Comunicación</h6>
+                <p>Facilidad de hablar en público y</p>
+                <p> con integrantes del equipo de trabajo, </p>
+                <p> así como darme entender en </p>
+                <p> conceptos difíciles de entender.</p>
+            </div>
+        </div>
+        <div class="boton-iconos">
+            <a href="#" class="boton-saber-mas">SABER MÁS</a>
+        </div>
+    </section>
+   <section id="porta">
+        <div>
+            <h4>Fumigation Home</h4>
+            <img src="../static/img/Captura de pantalla 2023-03-14 114607.png" alt=""> <!--Imagen de perfil-->
+            <p>
+                Proyecto encargado de administrar una base de datos para asignacionde las reservacione en una empresa de fumigaciones, tomando en cuenta las validaciones de seguridad y otros puntos en general.
+
+            </p>
+            <a href="https://fumigationhome.000webhostapp.com/Integrador/index.php"  class="boton-saber-mas" target="_blank">Ir al sitio</a>
+        </div>
+    </section>
+    <script src="../main.js"></script>
+</body>
+</html>
+
+
