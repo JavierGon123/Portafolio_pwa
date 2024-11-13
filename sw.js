@@ -19,7 +19,7 @@ var urlsToCache = [
 '/img/512x512.png',
 '/img/1024x1024.png',
 '/img/Captura de pantalla 2023-03-14 114607.png',
-'./img/foto.png',
+'img/foto.png',
 'img/iconos-de-la-ciencia.png',
 '/img/OriginalLogo.png',
 '/img/pexels-photomix-company-106344.jpg',
