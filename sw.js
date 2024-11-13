@@ -6,7 +6,6 @@ const CACHE_NAME ="v1_cache_PWA"
 
 var urlsToCache = [
 './',
-'./static/css/main.css',
 './static/css/Javier Gonzalez_cv.pdf',
 './static/img/16x16.ico',
 './static/img/18x18.ico',
